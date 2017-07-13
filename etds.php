@@ -38,9 +38,7 @@ DISSERTATION CROSSREF METADATA - for body of crossref metadata XML
 	<resource>$var_PURL</resource>
 </doi_data>
 
-// UPDATE SCRIPT TO GRAB DOI data from <identifier type="doi"></identifier>
 */
-// $modsFile = "Zeoli_fsu_0071E_13456.xml";
 
 $target_file_mods = basename($_FILES['MODS']['name']);
 $modsFile = $_FILES['MODS']['tmp_name'];
